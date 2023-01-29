@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  font-family: "Montserrat", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif; }
+
+button, input, select, textarea {
+  font-family: "Montserrat", sans-serif; }
+
+header .navbar {
+  background-color: #48cae4;
+  font-family: montserrat;
+  font-size: large;
+  font-weight: bold; }
+
+.navbar-brand img {
+  height: 55px; }
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #fff;
+  text-decoration: none; }
+
+form input {
+  background-color: #ffffff;
+  border: none;
+  font-size: large;
+  font-weight: bold; }
+
+form button {
+  background-color: #22577A;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.2rem;
+  transition: 0.3s ease; }
+
+#buttonlogin,
+#buttonregister,
+#buttonsearch,
+#buttonenviar1,
+#buttonblog,
+#buttonblog2 {
+  background-color: #22577A;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.2rem;
+  transition: 0.3s ease;
+  background: linear-gradient(to top, #22577A, #38A3A5) no-repeat right/200%; }
+
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 50%; }
+  .video::after {
+    content: "";
+    display: block;
+    padding-bottom: 56.25%;
+    width: 100%; }
+  .video .videoresponsive {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+
+h1 {
+  align-items: center;
+  display: 1;
+  justify-content: center; }
+
+main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1 {
+  padding: 60 px 60 px 60 px;
+  font-family: montserrat; }
+  main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosA {
+    align-items: center;
+    background-color: bg-body-secondary;
+    column-span: justify-content-center;
+    animation: myAnim 5s linear 3s 1 normal forwards; }
+    main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosA h3:before {
+      content: ""; }
+    main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosA p:before {
+      content: ""; }
+  main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosB {
+    align-items: center;
+    background-color: bg-secondary-subtle;
+    column-span: justify-content-center;
+    animation: myAnim 5s linear 3s 1 normal forwards; }
+    main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosB h3:before {
+      content: ""; }
+    main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosB p:before {
+      content: ""; }
+
+#footer {
+  background-color: #48cae4;
+  font-family: montserrat;
+  font-size: large;
+  font-weight: bold;
+  height: auto; }
+  #footer .mb-2 a:hover {
+    background-color: #caf0f8;
+    background-position: right;
+    color: #38A3A5; }
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box; }
+
+.btn {
+  border: none;
+  cursor: pointer;
+  background-color: #22577A;
+  border-radius: 20%;
+  padding: 0.2rem;
+  transition: 0.3s ease;
+  background: linear-gradient(to top, #22577A, #38A3A5) no-repeat right/200%; }

@@ -1,0 +1,63 @@
+header {
+    .navbar {
+    background-color: $background-principal;
+    font-family: montserrat;
+    font-size: large;
+    font-weight: bold;
+    }
+}
+
+    .navbar-brand {
+        img {
+            height: 55px;
+        }
+    }
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                &.active {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    
+
+    form {
+        input {
+            background-color: #ffffff;
+            border: none;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #22577A;
+            border: none;
+            border-radius: 15%;
+            cursor: pointer;
+            font-weight: bold;
+            padding: 0.2rem;
+            transition: 0.3s ease;
+        }
+    }
+
+    #buttonlogin, 
+    #buttonregister, 
+    #buttonsearch,
+    #buttonenviar1,
+    #buttonblog,
+    #buttonblog2 {
+        background-color: #22577A;
+        border: none;
+        border-radius: 15%;
+        cursor: pointer;
+        font-weight: bold;
+        padding: 0.2rem;
+        transition: 0.3s ease;
+        background: linear-gradient(to top,#22577A, #38A3A5) no-repeat right / 200%;
+    }
+

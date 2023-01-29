@@ -1,0 +1,36 @@
+
+@mixin reset-pm {
+    padding: 0%;
+    margin: 0%;
+}
+
+* {
+    @include reset-pm();
+    box-sizing: border-box;
+}
+
+@mixin button ($background-color, $color, $bold) {
+    background-color: $background-color #22577A;
+    color: $color;
+    border: none;
+    border-radius: 15%;
+    text-align: center;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+        padding: 0.2rem;
+    transition: 0.3s ease;
+    background: linear-gradient(to top, #22577A, #38A3A5) no-repeat right / 200%;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    background-color: #22577A;
+    border-radius: 20%;
+    padding: 0.2rem;
+    transition: 0.3s ease;
+    background: linear-gradient(to top, #22577A, #38A3A5) no-repeat right / 200%;
+    }

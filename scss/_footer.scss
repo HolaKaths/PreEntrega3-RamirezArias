@@ -1,0 +1,16 @@
+#footer {
+    background-color: $background-principal;
+    font-family: montserrat;
+    font-size: large;
+    font-weight: bold;
+    height: auto;
+    .mb-2 {
+    a {
+    &:hover {
+    background-color: #caf0f8;
+    background-position: right;
+    color: #38A3A5;
+    }
+    }
+    }
+    }
